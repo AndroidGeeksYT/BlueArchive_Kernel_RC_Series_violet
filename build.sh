@@ -10,7 +10,7 @@ echo "##### Setting Global Variables #####"
 kernel_dir="${PWD}"
 objdir="${kernel_dir}/out"
 anykernel="${HOME}/anykernel"
-kernel_name="ブルーアーカイブ-KSUN-RC8"
+kernel_name="ブルーアーカイブ-KSUN-RC9"
 KERVER=$(make kernelversion)
 zip_name="${kernel_name}-$(date +"%d%m%Y-%H%M")-signed.zip"
 

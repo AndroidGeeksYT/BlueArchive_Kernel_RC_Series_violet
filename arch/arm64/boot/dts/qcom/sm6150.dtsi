@@ -485,6 +485,13 @@
 		#size-cells = <2>;
 		ranges;
 
+		 ramoops@86020000 {
+                      compatible = "ramoops";
+                      no-map;
+                      reg = <0x0 0x86020000 0x0 0x80000>; // 512KB
+    };
+
+        
 		hyp_region: hyp_region@85700000 {
 			compatible = "removed-dma-pool";
 			no-map;
